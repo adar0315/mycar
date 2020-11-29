@@ -1,0 +1,46 @@
+TempSolSelector
+
+
+溫室1_栽植區 日間測試
+
+SolFanX4
+>=30度C 啟動
+<28.5度C 解除
+
+SolFanX3
+>=28度C 啟動
+<27.5度C 解除
+
+SolFanX2
+>=27度C 啟動
+<26度C 解除
+
+SolFanX1
+>=26度C 啟動
+<25度C 解除
+
+default temp 24度C
+SolDef(SolFanStop)
+24.00度C
+
+SolInsulation
+<=23度C 啟動
+>24度C 解除
+
+SolHeating
+<=18度C 啟動
+>20度C 解除
+
+//////////////////////////////
+溫室1_栽植區 夜間測試
+default temp 24度C
+SolDef(SolFanStop)
+24.00度C
+
+SolInsulation
+<=23度C 啟動
+>24度C 解除
+
+SolHeating
+<=18度C 啟動
+>20度C 解除
